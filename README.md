@@ -1,5 +1,5 @@
 # VoiceAttack-R6S
- A VoiceAttack profile for Rainbow Six Siege
+ A VoiceAttack profile for Rainbow Six Siege. This profile requires the paid version of VoiceAttack as it uses more than 20 commands.
 
 v0.1.0 on 2/10/2024:
 Implemented most base voice commands to play Rainbow Six Siege.
