@@ -34,6 +34,8 @@ For voice commands that include a '2' I also detect 'too' in case it misundersta
 | drone   | _non_combat_actions_ | Access your drone |
 | scan   | _non_combat_actions_ | Scan for enemies (red ping) |
 | [yellow;] ping   | _non_combat_actions_ | Perform a yellow-ping |
+| ability  | _non_combat_actions_ | Use ability (middle click) |
+| [place;breach] | _non_combat_actions_ | Hold down left-click to place a breach item |
 | sprint   | _movement_ | Self-explanatory |
 | [stop;stint]   | _movement_ | Stop all movement; Stop sprinting |
 | stalk   | _movement_ | Stop walking |
@@ -48,7 +50,7 @@ For voice commands that include a '2' I also detect 'too' in case it misundersta
 | lean [left;]  | _movement_ | Lean to the left. |
 | [rean;light]  | _movement_ | Lean to the right (Shortcut Naming: Right-Lean: Rean; Lean-Right: Light). |
 | reset   | _misc_ | Release all controls |
-| [fire;] [quick;short;long]   | _combat_ | Fire gun for a quick, short, long, or toggled period of time (say "fire" again to stop toggle) |
+| [fire;] [1;2;3]   | _combat_ | Fire gun for X seconds or a toggled period of time (say "fire" again to stop toggle) |
 | fire   | _combat_ | Toggle firing gun |
 | [sire;sie] [1;2;3;4;]  | _combat_ | Single-Fire, or Sire/Sie your weapon. The number refers to how many single fires you do. |
 | aim   | _combat_ | Aim your weapon |
@@ -61,5 +63,3 @@ For voice commands that include a '2' I also detect 'too' in case it misundersta
 | [look;] up [1;2;3;4;]   | _change_direction_ | Move mouse to look up. |
 | voice_placeholder   | _category_placeholder_ | Description_placeholder |
 
-
-Some of the options I went from memory on their controls so I still need to test whether I set the correct controls in v0.1.1 for barricading, droning, etc.
