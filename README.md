@@ -16,6 +16,8 @@ For support and bug reports please contact me on Discord. My username is "Piggie
 ## Voice Processing Speed
 Note some words are shortened in order to make them easier to say quickly in the heat of battle. It also allows the software to process the commands more quickly. E.g. "Stop Sprinting" was shortened to "stint" or "stop". However, if you feel it is still too slow to play the game then it is recommended to use Parrot.py on Github instead (less beginner friendly but quicker at processing).
 
+For voice commands that include a '2' I also detect 'too' in case it misunderstands it.
+
 ## Voice Command List
 | Voice Input |  Category  | Description |
 |:-----|:--------:|------:|
@@ -35,21 +37,27 @@ Note some words are shortened in order to make them easier to say quickly in the
 | sprint   | _movement_ | Self-explanatory |
 | [stop;stint]   | _movement_ | Stop all movement; Stop sprinting |
 | stalk   | _movement_ | Stop walking |
-| jump   | _movement_ | Self-explanatory |
+| [jump;vault]   | _movement_ | Self-explanatory |
 | climb [up;]   | _movement_ | Self-explanatory |
-| [go;walk] [quick;short;long;]   | _movement_ | "go" or "walk" to continuously walk. OR specify the second param for how long to walk. |
-| gight [quick;short;long;]   | _movement_ | Go-Right for a quick, short, long, or infinite period of time. |
-| geft [quick;short;long;]   | _movement_ | Go-Left for a quick, short, long, or infinite period of time. |
-| [gack;back] [quick;short;long;]   | _movement_ | Go-Backwards for a quick, short, long, or infinite period of time. |
+| [go;walk] [1;2;3;]   | _movement_ | "go" or "walk" to continuously walk. OR specify the second param for how long to walk (in seconds). |
+| [go right;righty] [1;2;3;] | _movement_ | Go-right for a quick (1), short (2), long (3), or toggled period of time. |
+| [go left;lefty] [1;2;3;]  | _movement_ | Go-Left for a quick (1), short (2), long (3), or toggled period of time. |
+| [gack;back] [1;2;3;]   | _movement_ | Go-Backwards for a quick, short, long, or infinite period of time. |
+| crouch   | _movement_ | Toggle crouching |
+| lay [down;]  | _movement_ | Toggle laying down |
+| lean [left;]  | _movement_ | Lean to the left. |
+| [rean;light]  | _movement_ | Lean to the right (Shortcut Naming: Right-Lean: Rean; Lean-Right: Light). |
 | reset   | _misc_ | Release all controls |
 | [fire;] [quick;short;long]   | _combat_ | Fire gun for a quick, short, long, or toggled period of time (say "fire" again to stop toggle) |
+| fire   | _combat_ | Toggle firing gun |
 | [sire;sie] [1;2;3;4;]  | _combat_ | Single-Fire, or Sire/Sie your weapon. The number refers to how many single fires you do. |
 | aim   | _combat_ | Aim your weapon |
 | staim   | _combat_ | Stop aiming |
+| [knife;dagger]  | _combat_ | Use your knife |
 | reload   | _combat_ | Reload your gun |
-| [look;] right [1;2;3;4;]   | _change_direction_ | Move mouse to look right. 1= 45 degrees, 2 = 90, 3 = 135, 4 = 180, unspecified = 22.5 |
+| [look;] right [1;2;3;4;]  | _change_direction_ | Move mouse to look right. 1= 45 degrees, 2 = 90, 3 = 135, 4 = 180, unspecified = 22.5 |
 | [look;] left [1;2;3;4;]   | _change_direction_ | Move mouse to look left. |
-| [look;] down [1;2;3;4;]   | _change_direction_ | Move mouse to look down. |
+| [look;] down [1;2;3;4;]  | _change_direction_ | Move mouse to look down. |
 | [look;] up [1;2;3;4;]   | _change_direction_ | Move mouse to look up. |
 | voice_placeholder   | _category_placeholder_ | Description_placeholder |
 
