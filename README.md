@@ -1,24 +1,31 @@
 # VoiceAttack-R6S
- A VoiceAttack profile for Rainbow Six Siege. This profile requires the paid version of VoiceAttack as it uses more than 20 commands.
+VoiceAttack profiles for Rainbow Six Siege.
 
-v0.1.1 on 2/10/2024:
-Implemented most base voice commands to play Rainbow Six Siege.
+These profiles require the paid version of VoiceAttack.
 
-A mouse is preferred but shouldn't be required. For maximum voice command processing speed and mouse control (without using a physical mouse) use Parrot.py on Github instead. 
+## R6S-Full Profile:
+Designed to be used for those whom do not have access to a mouse or keyboard. It allows looking around and moving around using just your voice. However, there are limitations with what can be done using VoiceAttack. Parrot.py is recommended for best use (but is less beginner friendly).
+
+## R6S-Lite Profile:
+Designed to be used alongside a mouse and keyboard. Reduces the amount of manual input required when in non-competitive situations (e.g. droning the map or running toward the building). However, for looking around and fighting you'll need a mouse and keyboard.
 
 For support and bug reports please contact me on Discord. My username is "PiggiesGoSqueal" (no ID).
 
+## Versions:
+Since the Lite version only contains a sub-section of the commands in the Full version, each release will contain a Full and Lite version using the same version numbers to reflect they are both on the same page with their updates.
+
 ## Improvement Steps:
-1. Implement: Using additional weapons (e.g. frag gernades) and using abilities with voice commands.
-2. Consider increasing consistency in voice commands. E.g. having multi-commands use "1;2;3" instead of "quick;short;long". Although variety may be good for memory and voice detection for the program. We'll see.
-3. Keep the list of voice commands below updated for any new additions.
+None currently.
+
+## Reminder for self:
+Keep the list of voice commands below updated for any new additions. When pushing new versions post them as official releases.
 
 ## Voice Processing Speed
 Note some words are shortened in order to make them easier to say quickly in the heat of battle. It also allows the software to process the commands more quickly. E.g. "Stop Sprinting" was shortened to "stint" or "stop". However, if you feel it is still too slow to play the game then it is recommended to use Parrot.py on Github instead (less beginner friendly but quicker at processing).
 
 For voice commands that include a '2' I also detect 'too' in case it misunderstands it.
 
-## Voice Command List
+## R6S-Full Profile Voice Command List
 | Voice Input |  Category  | Description |
 |:-----|:--------:|------:|
 | voiceattack help   | _voiceattack_ | Open the VoiceAttack help PDF |
@@ -53,8 +60,7 @@ For voice commands that include a '2' I also detect 'too' in case it misundersta
 | [fire;] [1;2;3]   | _combat_ | Fire gun for X seconds or a toggled period of time (say "fire" again to stop toggle) |
 | fire   | _combat_ | Toggle firing gun |
 | [sire;sie] [1;2;3;4;]  | _combat_ | Single-Fire, or Sire/Sie your weapon. The number refers to how many single fires you do. |
-| aim   | _combat_ | Aim your weapon |
-| staim   | _combat_ | Stop aiming |
+| aim   | _combat_ | Toggle aiming your weapon |
 | [knife;dagger]  | _combat_ | Use your knife |
 | reload   | _combat_ | Reload your gun |
 | [look;] right [1;2;3;4;]  | _change_direction_ | Move mouse to look right. 1= 45 degrees, 2 = 90, 3 = 135, 4 = 180, unspecified = 22.5 |
@@ -63,3 +69,4 @@ For voice commands that include a '2' I also detect 'too' in case it misundersta
 | [look;] up [1;2;3;4;]   | _change_direction_ | Move mouse to look up. |
 | voice_placeholder   | _category_placeholder_ | Description_placeholder |
 
+For a list of voice commands in the R6S-Lite profile import the Lite version into VoiceAttack. They'll include some but not all of the commands above.
