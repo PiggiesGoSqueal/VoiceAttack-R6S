@@ -37,7 +37,7 @@ For voice commands that include a '2' I also detect 'too' in case it misundersta
 | enter   | _UI_Interaction_ | Press Enter |
 | select   | _UI_Interaction_ | Right-click the active button |
 | tab   | _UI_Interaction_ | Press tab to move to the next option |
-| barricade   | _non_combat_actions_ | Barricade a wall |
+| [barricade;reinforce]   | _non_combat_actions_ | Barricade a wall |
 | drone   | _non_combat_actions_ | Access your drone |
 | scan   | _non_combat_actions_ | Scan for enemies (red ping) |
 | [yellow;] ping   | _non_combat_actions_ | Perform a yellow-ping |
